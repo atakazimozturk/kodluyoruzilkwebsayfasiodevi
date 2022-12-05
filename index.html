@@ -1,3 +1,6 @@
+<a href="#footer">
+    En Alt Kısma Git
+</a>
 <h1>Ata Kazım Öztürk</h1>
 <h3>Hakkımda</h3>
 <p>Merhaba ben Ata Kazım Öztürk! Bolu'da yaşıyorum. Bilimkurgu izlemeyi ve okumayı ben de çok seviyorum.Dune, Star Wars, Lord of The Rings hayranıyım. Ayrıca çizgi roman okumaya da bayılırım.Kodluyoruzun bu eğitim serisi sayesinde harika şeyler öğrendim ve öğrenmeye de devam edeceğim.</p>
@@ -8,3 +11,179 @@
 <h3>Star Wars</h3>
 <p>George Lucas'ın yarattığı bu harika aşırı geniş evrende geçen her işi keyifle izliyorum</p>
 <!-- Disney'in yaptığı son 3 film hariç tabiki :) -->
+
+<h1>Emmet Özellikleri</h1>
+<!-- 
+    etiket isimlerini direkt verebiliyoruz
+    + kardeş öğe h1+h2 yazıp taba basarsak kardeş element oluşturuyoruz
+    > içinde öğe
+    ^ yukarı çık ve öğe oluştur
+    * çarp -> p*3 dersek 3 tane paragraf istiyoruz demek
+    . -> class oluşturmak için nokta
+    # -> id oluşturmak için diyez
+    lorem -> anlamsız bir paragraf. sonradan yazı ekleyeceksek bunu kullanıyoruz
+    lorem4 -> 4 kelimelik lorem üret anlamına geliyor
+ -->
+ <!-- h1+h2 -->
+ <h1></h1>
+ <h2></h2>
+
+ <!-- h1+h2+p+p+p+h2+p+p+p+p+p -->
+ <!-- h1+h2+p*3+h2+p*5 -->
+ <h1></h1>
+ <h2></h2>
+ <p></p>
+ <p></p>
+ <p></p>
+ <h2></h2>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>  
+
+<!-- h1>h2 -->
+ <h1>
+    <h2></h2>
+ </h1>
+ <!-- ul>li*3 -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<!-- ol>li*3 -->
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+ <!-- h1^h2 -->
+<h1></h1>
+<h2></h2>
+
+<!-- h1*3 -->
+<h1></h1>
+<h1></h1>
+<h1></h1>
+
+<!-- h1. -->
+<h1 class=""></h1>
+
+<!-- h1# -->
+<h1 id=""></h1>
+
+<!-- h3.deneme>lorem1 -->
+<h3 class="deneme">Lorem.</h3>
+
+<!-- h3.deneme#idolussun>lorem1 -->
+<h3 class="deneme" id="idolussun">Lorem.</h3>
+
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -->
+<ul>
+    <li>Lorem.</li>
+    <li>Explicabo.</li>
+    <li>Nemo.</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Quo itaque excepturi facilis!</p>
+<h3>Lorem.</h3>
+
+<a href="https://picsum.photos" target="_blank">
+    <img width="200" height="300" src="https://picsum.photos/200/300" alt="Lorem Picsum">
+</a>
+
+<h2>Linklerle Çalışmak</h2>
+
+<!-- 
+    - aynı sayfa içinde bir yere link verme. yani sayfanın en üstüne çık gibi
+    - başka bir sayfaya git
+    - başka bir websitesine git
+    - mail at
+    - telefon et
+    bu bilgileri href="" içine yazıyoruz
+-->
+<ul>
+    <li>
+        <a href="https://www.instagram.com/norteech/" target="_blank"> 
+            Instagram sayfam için tıkla
+        </a>
+    </li>
+    <li>
+        <a href="iletisim.html">
+            İletişim sayfasına git.
+        </a>
+    </li>
+    <li>
+        <a href="mailto:ozturkkata@gmail.com">
+            Bana mail at
+        </a>
+    </li>
+    <li>
+        <a href="tel:+905412403848">
+            Bana Telefon Et
+        </a>
+    </li>
+</ul>
+<!-- başka bir websitesine git için a kullanıyoruz. target="_blank" ile yeni sekmede açtırıyor. -->
+<!-- kendi projemiz içerisinde başka bir sayfaya gitmek. bir alt satıra geç için <br> -->
+<!-- mail atmak için href="mailto:mailadresi" -->
+<br>
+<!-- aynı sayfa içerisinde bir yere gitmek. id bilgisine git kullanacağız -->
+<div>
+    <h2>Blok ve Inline Elementler</h2>
+    <ul>
+        <li>
+            <h3>Blok Element</h3>
+            <p>Bulunduğu satırın <em>tamamını kaplayan</em> elementlere <strong>Blok Element</strong> diyoruz.</p>
+            <ol>
+                <li>Division div elementi</li>
+            </ol>
+                </li>
+        <li>
+            <h3>Inline Element</h3>
+            <p><em>Boyutu kadar olan kısmı</em> kaplayanlara da <strong>Inline Element</strong> diyoruz.</p>
+            <ol>
+                <li>Strong Elementi</li>
+                <li>Italic Elementi em</li>
+                <li>a elementi. Yani başka yere gönderen emmet</li>
+                <li>Span elementi. Hayali inline bir kutu oluşturuyor.</li>
+            </ol>
+        </li>
+    </ul>
+    <br>
+    <a href="https://htmlreference.io" target="_blank">
+        Daha fazla bilgi edinmek için bu websitesini kullanabilirim.
+    </a>
+    <br>
+    <a href="http://www.99lime.com/_bak/topics/you-only-need-10-tags/" target="_blank">
+        Bu sitede de en önemli 10 HTML etiketi bulunmakta.
+    </a>
+</div>
+<!-- Bulunduğu satırın tamamını kaplayanlara Blok Elements diyoruz.
+Sadece kendi boyutu kadarını kaplayanlara da Inline Elements diyoruz.
+Yazıyı kalınlaştırmak için strong emmetini kullanabiliriz.
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="footer">En Alt Kısım</h2>
+<p>Lorem ipsum dolor sit amet.</p>
